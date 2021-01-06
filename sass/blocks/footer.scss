@@ -1,0 +1,17 @@
+.footer {
+  text-align: center;
+  margin-top: 5rem;
+  @include md {
+    margin-top: 4.5rem;
+  }
+  &__text {
+    font-family: $montserrat;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: $bglink;
+    @include md {
+      font-size: 12px;
+    }
+  }
+}

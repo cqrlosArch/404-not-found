@@ -1,0 +1,20 @@
+html {
+  font-family: $spaceMono;
+  box-sizing: border-box;
+  font-size: 18px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0 0.8rem;
+  color: $textColor;
+  min-height: 100vh;
+  @include md {
+    margin: 0 1rem;
+  }
+}

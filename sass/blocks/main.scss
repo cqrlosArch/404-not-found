@@ -1,0 +1,56 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  letter-spacing: -0.035em;
+  @include md {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+  }
+
+  &-img {
+    margin: 2rem 0;
+    @include md {
+      margin: 0;
+      text-align: center;
+    }
+  }
+  &__img {
+    max-width: 100%;
+    width: 100%;
+    @include md {
+      max-width: 60%;
+    }
+  }
+  &__title {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 71px;
+    @include md {
+      font-size: 64px;
+    }
+  }
+  &__text {
+    color: $textSecondary;
+    line-height: 27px;
+    @include md {
+      font-size: 24px;
+      width: 380px;
+      text-align: left;
+    }
+  }
+  &__link {
+    width: max-content;
+    display: block;
+    margin-top: 3rem;
+    background-color: $bglink;
+    text-decoration: none;
+    color: #fff;
+    padding: 1.3rem 2rem;
+    font-size: 14px;
+    letter-spacing: -0.035em;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+}

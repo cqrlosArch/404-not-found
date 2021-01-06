@@ -1,0 +1,11 @@
+.header {
+  text-align: left;
+  padding: 1rem 0;
+  &__title {
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: -0.08em;
+    font-family: $inconsolata;
+    margin: 0;
+  }
+}
