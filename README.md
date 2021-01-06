@@ -37,7 +37,7 @@
 ## Overview
 
 <p align="center">
-  <img src="screenshot.png">
+  <img src="screenshot.PNG">
 </p>
 
 ### Built With
